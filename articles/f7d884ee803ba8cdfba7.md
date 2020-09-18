@@ -1,5 +1,5 @@
 ---
-title: "How to save data in iOS"
+title: "iOSでデータを永続化する方法"
 emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["ios"]
@@ -7,9 +7,9 @@ published: true
 ---
 
 
-| 作成日時   | iOS version |
-| :--------- | :---------- |
-| 2016-07-01 | 9           |
+作成日時: 2016-07-01
+iOS version: 9
+
 
 この投稿では、iOSのファイルシステムについて理解し、データを永続化(iCloud含む)する方法を紹介する。尚、サンプルコードは動かない可能性もあるので参考程度にして下さい。
 
