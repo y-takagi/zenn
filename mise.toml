@@ -9,3 +9,6 @@ run = 'pnpm exec zenn new:article'
 
 [tasks.check-format]
 run = 'pnpm exec prettier --check .'
+
+[tasks.format]
+run = 'pnpm exec prettier --write .'

@@ -1,6 +1,6 @@
 engineStrict: true
 packageManagerStrictVersion: true
 publicHoistPattern:
-  - '*eslint*'
-  - '*prettier*'
-savePrefix: ''
+  - "*eslint*"
+  - "*prettier*"
+savePrefix: ""
