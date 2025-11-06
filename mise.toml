@@ -1,0 +1,11 @@
+[tools]
+node = '22.20.0'
+
+[tasks.install]
+run = 'pnpm install'
+
+[tasks.create-article]
+run = 'pnpm exec zenn new:article'
+
+[tasks.check-format]
+run = 'pnpm exec prettier --check .'
