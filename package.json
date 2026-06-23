@@ -7,7 +7,7 @@
   "packageManager": "pnpm@10.20.0",
   "license": "ISC",
   "dependencies": {
-    "zenn-cli": "0.2.10"
+    "zenn-cli": "0.5.1"
   },
   "devDependencies": {
     "prettier": "3.6.2"
