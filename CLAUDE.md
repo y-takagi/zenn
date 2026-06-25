@@ -32,11 +32,11 @@ mise run format
 ```yaml
 ---
 title: "記事タイトル"
-emoji: "😊"           # 記事のアイキャッチ絵文字（1文字）
-type: "tech"          # tech: 技術記事 / idea: アイデア
-topics: ["topic1"]    # タグ（最大5つ）
-published: false      # true にすると公開される
-publication_name: genda_jp  # 所属publication（省略可）
+emoji: "😊" # 記事のアイキャッチ絵文字（1文字）
+type: "tech" # tech: 技術記事 / idea: アイデア
+topics: ["topic1"] # タグ（最大5つ）
+published: false # true にすると公開される
+publication_name: genda_jp # 所属publication（省略可）
 ---
 ```
 
