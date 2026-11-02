@@ -1,8 +1,8 @@
 ---
-title: "iOSでデータを永続化する方法"
-emoji: "📝"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["ios"]
+title: 'iOSでデータを永続化する方法'
+emoji: '📝'
+type: 'tech' # tech: 技術記事 / idea: アイデア
+topics: ['ios']
 published: true
 ---
 
@@ -176,13 +176,13 @@ document.save(to: document.fileURL, for: .forCreating)
 // Download is automatically done by the OS
 ```
 
-またCore Dataも、[UIManagedDocument]()クラス(UIDocumentのサブクラス)を利用することで、同じ仕組でiCloudとの同期を取ることができる。
+またCore Dataも、`UIManagedDocument`クラス(UIDocumentのサブクラス)を利用することで、同じ仕組でiCloudとの同期を取ることができる。
 
 ### CloudKit
 
 基本的には他のユーザと共有するデータを保存しておくサービス。各レコードはKVSとして扱われ、単純なタイプ（文字列、数字、日付など）から複雑なタイプ（位置情報、参照、アセットなど）のオブジェクトまで対応している。
 
-他のiCloudサービスと同じで、データはローカルのコンテナで作成されシステムによって同期が取られる。[CKContainer]()オブジェクトでコンテナ内にあるデータベース[CKDatabase]()オブジェクトにアクセスできる。
+他のiCloudサービスと同じで、データはローカルのコンテナで作成されシステムによって同期が取られる。`CKContainer`オブジェクトでコンテナ内にあるデータベース`CKDatabase`オブジェクトにアクセスできる。
 
 コード例
 

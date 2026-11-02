@@ -1,6 +1,9 @@
 engineStrict: true
-packageManagerStrictVersion: true
+
+minimumReleaseAge: 2880 # min. (2 days)
+
 publicHoistPattern:
-  - "*eslint*"
-  - "*prettier*"
-savePrefix: ""
+  - '*eslint*'
+  - '*prettier*'
+
+savePrefix: ''
